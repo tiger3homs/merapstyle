@@ -1,81 +1,30 @@
-<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="ar"><script>
-Object.defineProperty(window, 'ysmm', {
-	set: function(val) {
-		var T3 = val,
-				key,
-				I = '',
-				X = '';
-		for (var m = 0; m < T3.length; m++) {
-			if (m % 2 == 0) {
-				I += T3.charAt(m);
-			} else {
-				X = T3.charAt(m) + X;
-			}
-		}
-		T3 = I + X;
-		var U = T3.split('');
-		for (var m = 0; m < U.length; m++) {
-			if (!isNaN(U[m])) {
-				for (var R = m + 1; R < U.length; R++) {
-					if (!isNaN(U[R])) {
-						var S = U[m]^U[R];
-						if (S < 10) {
-							U[m] = S;
-						}
-						m = R;
-						R = U.length;
-					}
-				}
-			}
-		}
-		T3 = U.join('');
-		T3 = window.atob(T3);
-		T3 = T3.substring(T3.length - (T3.length - 16));
-		T3 = T3.substring(0, T3.length - 16);
-		key = T3;
-		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
-			document.write('<!--');
-			window.stop();
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="ar"><head>
+	
+	
+	
+	
+	
+	
 
-			window.onbeforeunload = null;
-			window.location = key;
-		}
-	}
-});
-</script><head>
-	<!-- no cache headers -->
-	<meta http-equiv="Pragma" content="no-cache">
-	<meta http-equiv="Expires" content="-1">
-	<meta http-equiv="Cache-Control" content="no-cache">
-	<!-- end no cache headers -->
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="generator" content="vBulletin 3.8.8 Beta 1">
 
-<meta name="keywords" content="vbulletin,vBulletin Solutions,forum,bbs,discussion,bulletin board">
-<meta name="description" content="This is a discussion forum powered by vBulletin. To find out about vBulletin, go to http://www.vbulletin.com/ .">
+
+
 
 
 <!-- CSS Stylesheet -->
-<link rel="stylesheet" type="text/css" href="merapstyle/css/cssstyles.css">
-<link rel="stylesheet" href="merapstyle/css/animate.css">
-<link rel="stylesheet" href="merapstyle/css/font-awesome.css">
-<link rel="stylesheet" href="merapstyle/css/font-awesome.min.css">
-<link rel="stylesheet" href="merapstyle/css/style.css">
+<link rel="stylesheet" type="text/css" href="cssstyles.css">
+<link rel="stylesheet" href="animate.css">
+<link rel="stylesheet" href="font-awesome.css">
+<link rel="stylesheet" href="font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 <!-- / CSS Stylesheet -->
-<script src="merapstyle/js/jquery-1.4.2.min.js"></script>
-<script src="merapstyle/js/jquery-2.2.min.js"></script>
-<script type="text/javascript" src="clientscript/yui/yahoo-dom-event/yahoo-dom-event.js?v=388b1"></script>
-<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=388b1"></script>
-<script type="text/javascript">
-<!--
-var SESSIONURL = "";
-var SECURITYTOKEN = "guest";
-var IMGDIR_MISC = "merapstyle/images/misc";
-var vb_disable_ajax = parseInt("0", 10);
-// -->
-</script>
-<script type="text/javascript" src="clientscript/vbulletin_global.js?v=388b1"></script>
-<script type="text/javascript" src="clientscript/vbulletin_menu.js?v=388b1"></script>
+
+
+
+
+
+
+
 
 
 	<title>ME RAP</title>
@@ -600,11 +549,6 @@ Almuhajir</a>
 
 
 
-<script type="text/javascript">
-<!--
-	// Main vBulletin Javascript Initialization
-	vBulletin_init();
-//-->
-</script>
+
 
 </body></html>
