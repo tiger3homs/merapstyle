@@ -1,0 +1,231 @@
+/**
+* vBulletin 3.8.8 Beta 1 CSS
+* Style: 'MERAPSTYLE'; Style ID: 2
+*/
+* , body {margin:0px;padding:0px;}
+body
+{
+	background: url(../images/wallpaper.jpg);
+	background-position-x: -230px;
+	color: #333333;
+	font: 12px sans-serif;
+	text-align:center;
+}
+merap
+{
+	background: url(../images/merap.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100px;
+	width: 100px;
+	color: #333333;
+	font: 12px sans-serif;
+	text-align:center;
+	display: block;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+tiger3homs
+{
+	background: url(../images/tiger3homs.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100px;
+	width: 100px;
+	color: #333333;
+	font: 12px sans-serif;
+	text-align:center;
+	display: block;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+a:link, body_alink
+{
+	color: #333333;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: #333333;
+	text-decoration: none;
+}
+a:hover, a:active, body_ahover
+{
+	color: #000000;
+	text-decoration: none;
+}
+.page
+{
+	color: #333333;
+	background: #c1c1c1;
+}
+.page a:link, .page_alink
+{
+	color: #333333;
+	text-decoration: none;
+}
+.page a:visited, .page_avisited
+{
+	color: #333333;
+	text-decoration: none;
+}
+.page a:hover, .page a:active, .page_ahover
+{
+	color: #000000;
+	text-decoration: none;
+}
+td, th, p, li
+{
+	color: #333333;
+}
+.alt2
+{
+	background: #a6a6a6;
+	color: #333333;
+	margin: 0px;
+	position: relative;
+}
+.tborder
+{
+	color: #333333;
+}
+.tcat
+{
+    background: #AA3C39 url(http://c.top4top.net/p_239acts4.png);
+	background-position-x: 100%;
+	background-position-y: 10%;
+	background-repeat: repeat;
+	color: #333333;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #666666;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #333333;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #000000;
+}
+.thead
+{
+	color: #000000;
+}
+.thead a:link, .thead_alink
+{
+	color: #000000;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #000000;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #333333;
+}
+.tfoot
+{	
+    background: #AA3C39 url(http://c.top4top.net/p_239acts4.png);
+	background-position-x: 10%;
+	background-position-y: 10%;
+	background-repeat: repeat;
+	color: #000000;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #000000;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #000000;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #333333;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead {padding: 4px;}
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+#navbar{}
+.vbmenu_control{background: #AA3C39;padding: 10px;}
+#header {background: #801815;width: -webkit-fill-available;box-shadow: 0px 25px 15px -21px black;border-top: inset 1px #33333330;}
+#footer {background: #801815;width: -webkit-fill-available;border-top: inset 1px #33333330;}
+.linksup{width:100px;display:inline-block;background: transparent;}
+.searchtable{display:inline-block;text-align: right;padding: 4px;font-size: 20px;font-family: sans-serif;color: #333333;border: 0pc;background: transparent;}
+.vbmenu_popup{display:inline-block;text-align: right;padding: 4px;/* font-family: sans-serif; *//* color: #333333; */border: 0pc;background: #AA3C39;}
+.footertable{display:inline-block;text-align: right;font-family: sans-serif;color: #333333;border: 0pc;background: #AA3C39;}
+.bartable{display:inline-block;text-align: right;padding: 4px;/* font-family: sans-serif; *//* color: #333333; */border: 0pc;background: #AA3C39;}
+.searchtable1{display:inline-block;width: 100px;height: 28px;font-size: 16px;margin: 5px;background: #0000004f;text-align: right;margin-right: 10px;float: left;font-family: sans-serif;border-radius: 5px;border: transparent;box-shadow: inset 0px 0px 14px -3px black;}
+.floatcontainer{display: flow-root;text-align: right;padding: 4px;font-family: sans-serif;color: #333333;border: 0pc;background: #AA3C39;}
+.sidebar_table{display:inline-block;text-align: right;font-family: sans-serif;color: #333333;border: 0pc;background: #AA3C39;}
+.bginput{display:inline-block;margin: 5px;width: 100px;height: 30px;background: #0000004f;text-align: center;font-family: sans-serif;border-radius: 5px 5px 5px 5px;border: transparent;box-shadow: inset 0px 0px 14px -3px black;}
+.smallfont{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.button{
+    border-radius: 5px 5px 5px 5px;
+    background: #550200;
+    border: transparent;
+    font-family: sans-serif;
+    height: 30px;
+    text-align: center;
+}
+.button:hover{
+    border-radius: 5px;
+    background: #561717;
+    border: transparent;
+}
+
+#cb_cookieuser_navbar{
+    background: #550200;
+    position: relative;
+    height: 10px;
+    width: 10px;
+}
+select{
+    border-radius: 5px 5px 5px 5px;
+    background: #801815;
+    border: transparent;
+    font-family: sans-serif;
+    height: 30px;
+    text-align: center;
+    color: #333333;
+    margin: 10px;
+}
+.searchbutton{
+    border-radius: 5px 5px 5px 5px;
+    background: #550200;
+    border: transparent;
+    font-family: sans-serif;
+    color: black;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    float: right;
+    margin: 5px;
+}
+.searchbutton:hover{
+    border-radius: 5px;
+    background: #561717;
+    border: transparent;
+}
